@@ -48,7 +48,7 @@ li a{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex: 1;
+    flex: 3;
 }
 .main-text{
     font-size: 48px;
@@ -110,7 +110,6 @@ img{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
 }
 .quote,
 .author{
@@ -127,5 +126,45 @@ img{
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 2em;
+    align-self: flex-end;
+    padding-right: 10em;
 }
 /* Call to action section style */
+.contact{
+    background-color: #fff;
+    padding: 100px;
+}
+.call-container{
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 88px;
+}
+.call-text{
+    color: #f9faf8;
+}
+h5{
+    font-size: 24px;
+}
+.call-text p{
+    color: #e5e7eb;
+}
+
+.sign-up.call{
+    border: 1px solid #f9faf8;
+}
+.footer{
+    height: 52px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    word-spacing: 4px;
+}
